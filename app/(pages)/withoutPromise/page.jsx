@@ -1,12 +1,11 @@
 "use client";
-import { PostList, PostLoading } from "@/app/_components";
-
-import { Suspense } from "react";
+import { PostList } from "@/app/_components";
 
 export default function withPromisePage() {
     return (
-        <Suspense fallback={<PostLoading />}>
+        <div>
+            <h1 className="text-2xl font-black">不使用 Skeleton UI</h1>
             <PostList />
-        </Suspense>
+        </div>
     );
 }
