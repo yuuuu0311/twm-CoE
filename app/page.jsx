@@ -9,6 +9,9 @@ export default function Index() {
             <li>
                 <Link href={"/withoutPromise"}>withoutPromise</Link>
             </li>
+            <li>
+                <Link href={"/compare"}>Compare</Link>
+            </li>
         </ul>
     );
 }

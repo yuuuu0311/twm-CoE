@@ -1,3 +1,5 @@
+"use client";
+
 const PostLoading = () => {
     const data = Array(10).fill({ data: "test" });
 

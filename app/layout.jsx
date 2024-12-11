@@ -20,11 +20,9 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} relative antialiased p-8 flex`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased p-8`}
             >
-                <div className="mx-auto shadow-lg bg-white max-w-screen-md rounded-xl flex-1 p-8">
-                    {children}
-                </div>
+                <div>{children}</div>
             </body>
         </html>
     );

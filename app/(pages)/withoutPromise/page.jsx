@@ -1,11 +1,11 @@
 "use client";
-import { PostList } from "@/app/_components";
+import { PostList2 } from "@/app/_components";
 
-export default function withPromisePage() {
+export default function withoutPromisePage() {
     return (
-        <div>
+        <div className="mx-auto shadow-lg bg-white max-w-screen-md rounded-xl flex-1 p-8">
             <h1 className="text-2xl font-black">不使用 Skeleton UI</h1>
-            <PostList />
+            <PostList2 />
         </div>
     );
 }

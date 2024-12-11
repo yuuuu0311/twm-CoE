@@ -6,7 +6,7 @@ import { Post } from "@/app/_components";
 import getPosts from "@/app/_utils/getPost";
 
 const PostList = () => {
-    const postData = use(getPosts(5000));
+    const postData = use(getPosts(3500));
 
     return (
         <ul>
