@@ -5,7 +5,7 @@ const PostLoading = () => {
         <>
             {data.map((item, index) => (
                 <div
-                    div
+                    key={index}
                     className="p-4 pt-6 pb-8 border-b-[0.25px] animate-pulse border-b-slate-400"
                 >
                     <div className="flex gap-4 h-12 mb-4">
