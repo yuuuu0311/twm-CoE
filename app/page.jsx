@@ -1,16 +1,14 @@
-import Link from "next/link";
-
 export default function Index() {
     return (
         <ul className="list-disc">
             <li>
-                <Link href={"/withPromise"}>withPromise</Link>
+                <a href={"/withPromise"}>withPromise</a>
             </li>
             <li>
-                <Link href={"/withoutPromise"}>withoutPromise</Link>
+                <a href={"/withoutPromise"}>withoutPromise</a>
             </li>
             <li>
-                <Link href={"/compare"}>Compare</Link>
+                <a href={"/compare"}>Compare</a>
             </li>
         </ul>
     );
