@@ -8,6 +8,8 @@ import getPosts from "@/app/_utils/getPost";
 const PostList = () => {
     const postData = use(getPosts(3500));
 
+    console.log(postData);
+
     return (
         <ul>
             {postData.map((item, index) => (
