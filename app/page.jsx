@@ -1,10 +1,13 @@
 "use client";
 
 import { PostList, PostList2, PostLoading } from "@/app/_components";
-
-import { Suspense } from "react";
+import { Suspense, useEffect } from "react";
 
 const Compare = () => {
+    useEffect(() => {
+        console.log("test");
+    }, []);
+
     return (
         <div className="flex items-start gap-4">
             <div className="mx-auto shadow-lg bg-white max-w-screen-md rounded-xl flex-1 p-8">

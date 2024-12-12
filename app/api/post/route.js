@@ -6,8 +6,6 @@ const POST = async (req) => {
 
     const data = Array(10).fill({ data: "test" });
 
-    console.log(delay);
-
     await setDelay(delay);
 
     return NextResponse.json({ data });

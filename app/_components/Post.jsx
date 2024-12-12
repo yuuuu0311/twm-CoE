@@ -12,7 +12,9 @@ const Post = () => {
                 </Avatar>
                 <div className="flex flex-col">
                     <div className="font-bold text-xl">User ID</div>
-                    <div className="text-md">18 mins ago</div>
+                    <div className="text-md">
+                        {Math.floor(Math.random() * 60)} mins ago
+                    </div>
                 </div>
             </div>
             <div>
