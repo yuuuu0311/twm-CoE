@@ -11,11 +11,15 @@ const ContractList = () => {
   const contractData = use(getPosts(2000));
 
   return (
-    <ul className="flex flex-col">
-      {contractData.map((item, index) => (
-        <Contract key={index} />
-      ))}
-    </ul>
+    <div className="sticky top-[96px] text-stone-800 ">
+      <p className="font-bold text-lg mb-4 px-4">Contact</p>
+
+      <ul className="flex flex-col">
+        {contractData.map((item, index) => (
+          <Contract key={index} />
+        ))}
+      </ul>
+    </div>
   );
 };
 

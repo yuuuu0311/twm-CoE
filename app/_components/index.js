@@ -10,3 +10,5 @@ export { default as StoryLoading } from "./StoryLoading";
 export { default as Contract } from "./Contract";
 export { default as ContractList } from "./ContractList";
 export { default as ContractLoading } from "./ContractLoading";
+export { default as Aside } from "./Aside";
+export { default as AsideItem } from "./AsideItem";
